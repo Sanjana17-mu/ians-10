@@ -1,0 +1,32 @@
+h1{
+    padding: 1px 2px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.btn{
+    padding: 8px 30px;
+    margin: 7px 3px;
+    border: 5px solid rgb(173, 37, 167);
+    background: none;
+    color: rgb(5, 5, 5);
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-weight: 400;
+    background: rgba(200, 221, 14, 0.322);
+}
+
+.header.row{
+    margin-top: 70px;
+ }
+button{
+    background-color: rgb(189, 75, 9);
+    padding: 7px 25px;
+}
+input{
+    border-radius: 5px;
+    padding: 7px 20px;
+}
+.navbar{
+    background-color: rgb(229, 228, 226);
+}

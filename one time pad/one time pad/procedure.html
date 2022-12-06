@@ -1,0 +1,64 @@
+<html>
+<link rel="stylesheet" href="./practice.css" />
+  <body>
+    <nav>
+      <div class="countainer">
+        <ul class="pages">
+          <a href="aim.html" class="link link1">
+            <li class="page active page1">Aim</li>
+          </a>
+          <a href="procedure.html" class="link link2">
+            <li class="page page2">Procedure</li>
+          </a>
+          <a href="theory.html" class="link link3">
+            <li class="page page3">Theory</li>
+          </a>
+          <a href="simulation.html" class="link link4">
+            <li class="page page4">Simulation</li>
+          </a>
+          <a href="cryptanalysis.html" class="link link4">
+            <li class="page page4">Cryptanalysis</li>
+          </a>
+          <a href="about us.html" class="link link4">
+            <li class="page page4">about us</li>
+          </a>
+        </ul>
+        <!-- <p class="search">
+          <input
+            class="search-box"
+            type="search"
+            name="search"
+            id="search"
+            placeholder="Search..."
+          />
+        </p>
+        <p class="logo">My Website</p> -->
+      </div>
+    </nav>
+
+    <div class="container">
+      <h2 style="font-weight: bolder; font-size: 50px; padding-top: 0%;color:#000080; background-color: rgb(228, 228, 225);"><img src="logo.jpg" width="160"; height="120"; > Virtual Lab</h2> 
+      <center><h1 style="background-color:rgb(204, 216, 36);">One-Time Pad Cipher</h1></center>
+        <br><br><h1>Procedure:</h1><br>
+        <h3> STEP 1 : Select a plain text and a key by clicking on the Next buttons next to the respective fields.</h3><br>
+        <h3> STEP 2 : If the generated key is biased, make it unbiased in 0 and 1, and use it. You can use the idea given in theory part.</h3><br>
+        
+        <h3> STEP 3 : On clicking on "Encrypt" button, you will get the ciphertext for the same encryption scheme. You can get the cipher text for as many plaintext and key pairs as you like for the same encryption scheme. 
+                      You can change the encryption scheme too if you want.</h3><br>
+         
+        <h3>STEP 4 : You can take a look at all the possible 2^(length of plaintext + length of key) tuples of plaintext, key and ciphertext in the next block.</h3><br>
+         <h3>STEP 5 : By observing the tuples obtained above, you need to tell if the encryption scheme being used is secure or not. 
+                      If not, you need to find the message, m and ciphertext, c such that P(M=m|C=c) = P(M=m). In the experiment the size of the message space and that of the key space are equal. 
+                      Thus from Shannon's theorem, to show that a scheme is not perfect, it is enough if you locate two distinct plaintexts that are encrypted to obtain the same ciphertext for the same key </h3><br>
+    
+    </div>
+      
+  </body>
+  <style>
+    body  {
+      background-image: url('');
+      background-repeat: no-repeat;
+      background-color: #afafa9;
+    }
+    </style>
+</html>
